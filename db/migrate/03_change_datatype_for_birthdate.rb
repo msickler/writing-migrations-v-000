@@ -1,5 +1,5 @@
 class BirthdayStudent < ActiveRecord::Migration
-  def change 
-    change_column :students, :birthdate, :datetime 
-  end 
+  def change
+    change_column :students, :birthdate, :datetime
+  end
 end 

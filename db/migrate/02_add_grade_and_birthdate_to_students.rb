@@ -1,10 +1,8 @@
 class More_students < ActiveRecord::Migration
 
   def change
-    add_column :students do |s|
-      s.integer :grade
-      s.string :birthday
-    end
+    add_column :students, :grade, :integer 
+    add_column :students, :birthdate, :string
   end
 
 end
